@@ -20,9 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Prepare GitHub Pages site
-        run: |
-          rm -rf .git .github
-          touch .nojekyll
+        run: touch .nojekyll
 
       - name: Publish website to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
