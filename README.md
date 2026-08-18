@@ -1,7 +1,9 @@
-# Daily-Hindu-Panchang-App
+# Daily Hindu Panchang App
 
-Public repository for the Daily Hindu Panchang App.
+Public companion repository for **Daily Hindu Panchang**.
 
-## Privacy Policy
+- **Website:** https://parimalnarayan.github.io/Daily-Hindu-Panchang-App/
+- **Privacy Policy:** https://parimalnarayan.github.io/Daily-Hindu-Panchang-App/privacy-policy.html
+- **Android source:** https://github.com/parimalnarayan/Daily-Hindu-Panchang
 
-[Read the Daily Hindu Panchang Privacy Policy](https://github.com/parimalnarayan/Daily-Hindu-Panchang-App/blob/main/privacy-policy.html)
+The project is designed around a fast, privacy-first daily Panchang experience with local calculations, Hindu calendar data, festivals/vrat and government-holiday information.
