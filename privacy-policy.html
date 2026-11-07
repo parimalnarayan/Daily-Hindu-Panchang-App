@@ -1,1 +1,296 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Privacy Policy — Daily Hindu Panchang</title><meta name="description" content="Privacy Policy for the Daily Hindu Panchang Android application."><style>:root{color-scheme:light}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#fff8e7;color:#1b2a55;line-height:1.65}main{max-width:760px;margin:0 auto;padding:32px 20px 56px}h1,h2{color:#780000}h1{line-height:1.2}.updated{color:#665f52;font-size:.92rem}a{color:#780000}section{background:#fffdf6;border:1px solid #e8d7a5;border-radius:12px;padding:18px 20px;margin:16px 0}</style></head><body><main><h1>Privacy Policy — Daily Hindu Panchang</h1><p class="updated">Effective date: 18 August 2026</p><section><p>Daily Hindu Panchang is a Hindu Panchang utility designed to calculate and display daily Panchang information, including tithi, nakshatra, sunrise and sunset, muhurat, festivals and related calendar information.</p><p>This Privacy Policy explains how the Android application handles information.</p></section><section><h2>1. Information used by the app</h2><p><strong>Location.</strong> The app may request device location when you choose the current-location feature. Location is used to calculate location-dependent Panchang timings such as sunrise, sunset and other local timings. Core Panchang calculations are designed to run locally and the app does not send precise GPS coordinates to a Panchang server.</p><p><strong>Saved preferences.</strong> Limited preferences such as language and selected location may be stored locally on your device.</p><p>The app does not require an account, password or registration.</p></section><section><h2>2. Firebase and Google services</h2><p>The Android build includes optional Firebase SDKs for Analytics, Authentication, Cloud Firestore, Cloud Functions, Storage, Cloud Messaging, Crashlytics, Performance Monitoring, Remote Config, App Check and related infrastructure. These cloud features are activated only after the project's real Firebase configuration is provisioned.</p><p>If cloud services are enabled in a released version, Firebase may process technical information such as app instance identifiers, diagnostics, performance data, crash information and notification tokens according to the enabled Firebase products. These services are used to operate, secure, diagnose and improve the application.</p><p>Firebase and Google service processing is governed by Google's applicable privacy policies and terms. The project does not intentionally upload precise device GPS coordinates to Firestore merely for Panchang calculation.</p></section><section><h2>3. Notifications</h2><p>The app may request Android notification permission so it can provide daily Panchang reminders and Firebase Cloud Messaging notifications. You can deny or later disable notifications through Android system settings.</p></section><section><h2>4. Information we collect</h2><p>The app is designed around local calculation and does not intentionally collect names, email addresses, contacts, photographs, messages or unrelated personal information. If cloud-backed Firebase features are activated, the limited technical data described above may be processed by the configured Firebase services.</p></section><section><h2>5. Sharing of information</h2><p>We do not sell, rent or trade personal information. If you use Android's Share feature, information you choose to share is passed to the Android sharing interface and the application or person you select.</p></section><section><h2>6. Data retention and deletion</h2><p>Local preferences can be removed by clearing app storage or uninstalling the app. Firebase-managed technical records are retained according to the configuration and retention controls of the corresponding Firebase services.</p></section><section><h2>7. Children's privacy</h2><p>The app is a general-purpose informational utility and does not knowingly collect personal information from children.</p></section><section><h2>8. Security</h2><p>We use a local-first design to minimize transmission of personal information. No method of electronic storage or transmission can be guaranteed to be completely secure.</p></section><section><h2>9. Changes to this policy</h2><p>This Privacy Policy may be updated when functionality, data handling or legal requirements change. The effective date will be updated when material changes are made.</p></section><section><h2>10. Contact</h2><p>For privacy questions or requests, please contact the project maintainer through the public repository:</p><p><a href="https://github.com/parimalnarayan/Daily-Hindu-Panchang-App">github.com/parimalnarayan/Daily-Hindu-Panchang-App</a></p></section></main></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#780000" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>Privacy policy — Daily Hindu Panchang</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="policy.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#content" data-policy-text="skip">Skip to content</a>
+    <header class="topbar">
+      <a class="brand" href="index.html"
+        ><span class="om" aria-hidden="true">ॐ</span
+        ><strong>Daily Hindu Panchang</strong></a
+      >
+      <nav aria-label="Main">
+        <a href="index.html" data-policy-text="home">Home</a
+        ><a href="privacy-policy.html" data-policy-text="privacy">Privacy</a
+        ><a href="subscription-terms.html" data-policy-text="subscription"
+          >Subscription</a
+        ><a href="account-deletion.html" data-policy-text="deletion"
+          >Delete account</a
+        >
+      </nav>
+    </header>
+    <main id="content" class="policy">
+      <div class="language" role="group" aria-label="Language">
+        <button type="button" data-language="en" aria-pressed="true">
+          English</button
+        ><button type="button" data-language="hi" aria-pressed="false">
+          हिन्दी
+        </button>
+      </div>
+      <article lang="en" data-lang="en">
+        <h1>Privacy policy</h1>
+        <p class="updated">7 November 2026</p>
+        <p class="lead">
+          Daily Hindu Panchang keeps daily Panchang calculations and card
+          rendering on your phone. Accounts and Premium are optional.
+        </p>
+        <section>
+          <h2>Panchang, location and local storage</h2>
+          <p>
+            The free Panchang and standard share card work without an account.
+            Your chosen city or optional device location is used for
+            calculations locally. We do not send your precise coordinates to our
+            Panchang or billing backend. Language, theme, saved locations, Brand
+            Profiles and imported photo/logo copies are stored in app-private
+            storage. Brand Profiles and media are not uploaded or synced to our
+            servers. Automatic app-data backup is disabled.
+          </p>
+        </section>
+        <section>
+          <h2>Optional account</h2>
+          <p>
+            Creating an account sends your email, password and optional display
+            name securely to Firebase Authentication, operated by Google. The
+            app uses the authenticated Firebase user ID to isolate account data.
+            Passwords are handled by Firebase Authentication; they are not
+            stored in our billing database. Firebase maintains your session and
+            handles verification and password-reset emails. Network access is
+            needed for registration, login, password changes, account deletion
+            and purchase verification.
+          </p>
+        </section>
+        <section>
+          <h2>Premium and purchase verification</h2>
+          <p>
+            Google Play processes payments and payment methods, including UPI
+            when available. We do not receive your UPI PIN or card details. Our
+            trusted backend verifies purchase tokens with the Google Play
+            Developer API and stores account-linked product, base plan,
+            subscription status, expiry, verification timestamps and encrypted
+            purchase tokens. Google Cloud KMS protects tokens and signs
+            short-lived entitlement statements. Tokens cannot be reassigned to
+            another account. A signed entitlement may preserve paid access for
+            up to 72 hours on the same device boot, bounded by subscription
+            expiry. Changing the clock or rebooting requires fresh verification.
+          </p>
+        </section>
+        <section>
+          <h2>Ads and consent</h2>
+          <p>
+            Free users may see Google AdMob ads when enabled, online and
+            permitted by the consent flow. Google may process device/advertising
+            identifiers, approximate location inferred from IP, ad interactions
+            and diagnostics according to consent and Google policy. You can
+            review privacy choices in the app where available. Verified Premium
+            users receive no ad requests or visible ads; unverified signed-in
+            subscription state fails safely by suppressing ads while it is
+            checked.
+            <a href="https://policies.google.com/privacy"
+              >Google privacy policy</a
+            >
+            ·
+            <a href="https://support.google.com/admob/answer/6128543"
+              >AdMob privacy</a
+            >.
+          </p>
+        </section>
+        <section>
+          <h2>Diagnostics, notifications and website</h2>
+          <p>
+            Analytics, automatic Crashlytics reports and Firebase Performance
+            collection are disabled in this implementation. Firebase App
+            Check/Play Integrity protect backend access and may process
+            attestation/device information. Firebase Cloud Messaging can process
+            an installation/notification token for messaging; we do not log or
+            upload it to a custom database. Android notification permission is
+            optional. This website uses no analytics or advertising cookies.
+            GitHub Pages may retain standard hosting access logs. The deletion
+            form loads Google Firebase services only when you submit it and uses
+            an in-memory authentication session.
+          </p>
+        </section>
+        <section>
+          <h2>Sharing and media</h2>
+          <p>
+            Photo/logo selection uses the Android document picker, followed by
+            an app-private cropped copy. No camera or broad photo-library
+            permission is required. Generated PNGs remain local until you save
+            or share them. Android and the recipient app receive the card you
+            select, including any visible personal details. Saved/shared copies
+            are outside app-private storage and are not removed by account
+            deletion.
+          </p>
+        </section>
+        <section>
+          <h2>Retention and deletion</h2>
+          <p>
+            Use
+            <a href="account-deletion.html" data-policy-text="deletion"
+              >Delete account</a
+            >
+            on this website or Account → Delete in the app. Successful deletion
+            removes the Firebase identity and authoritative entitlement. The app
+            also removes the current account’s local Brand Profile, media and
+            cached entitlement. Website deletion cannot directly erase an
+            offline phone; reconnect it to reconcile deletion, or clear app
+            storage/uninstall. Minimal pseudonymous purchase-token/account
+            hashes and revocation tombstones may remain for up to 400 days for
+            replay prevention, dispute handling and subscription reconciliation.
+            Encrypted token material and the account’s email/UID mapping are
+            removed on deletion; managed TTL deletion is asynchronous. Google
+            Play retains payment records under its own policies. Deleting an
+            account does <strong>not</strong> cancel a Google Play subscription;
+            cancel it separately in Play.
+          </p>
+        </section>
+        <section>
+          <h2>Choices, security and contact</h2>
+          <p>
+            You may continue as a guest, deny location/notification permission,
+            clear local storage, manage ad privacy choices, cancel Premium or
+            delete your account. We do not sell personal data. No electronic
+            service can promise absolute security. This is a general-audience
+            informational app, not a service directed at children. Policy
+            changes will update this date. For support,
+            <a
+              href="https://github.com/parimalnarayan/Daily-Hindu-Panchang-App/issues"
+              >contact the maintainer</a
+            >. Do not post passwords, purchase tokens, payment details or
+            personal documents in public issues.
+          </p>
+        </section>
+      </article>
+      <article lang="hi" data-lang="hi" hidden>
+        <h1>प्राइवेसी पॉलिसी</h1>
+        <p class="updated">7 November 2026</p>
+        <p class="lead">
+          Daily Hindu Panchang में पंचांग की गणना और कार्ड बनाना आपके फोन पर
+          होता है। अकाउंट और प्रीमियम लेना आपकी मर्ज़ी है।
+        </p>
+        <section>
+          <h2>पंचांग और फोन का डेटा</h2>
+          <p>
+            फ्री पंचांग और सामान्य शेयर कार्ड के लिए लॉगिन ज़रूरी नहीं है। चुने
+            हुए शहर या आपकी अनुमति से मिली लोकेशन पर गणना फोन में होती है। सटीक
+            लोकेशन पंचांग या बिलिंग सर्वर पर नहीं भेजी जाती। भाषा, थीम, सेव की
+            गई लोकेशन, ब्रांड प्रोफाइल और फोटो/लोगो की कॉपी ऐप के निजी स्टोरेज
+            में रहती है। प्रोफाइल और इमेज सर्वर पर अपलोड या सिंक नहीं होतीं। ऐप
+            डेटा का ऑटोमैटिक बैकअप बंद है।
+          </p>
+        </section>
+        <section>
+          <h2>अपना अकाउंट</h2>
+          <p>
+            साइन अप करते समय ईमेल, पासवर्ड और वैकल्पिक नाम Google की Firebase
+            Authentication सेवा को सुरक्षित तरीके से भेजे जाते हैं। अकाउंट की
+            पहचान Firebase की प्रमाणित यूज़र आईडी से होती है। पासवर्ड हमारी
+            बिलिंग डेटाबेस में नहीं रखा जाता। Firebase लॉगिन सेशन, ईमेल
+            वेरिफिकेशन और पासवर्ड रीसेट संभालता है। साइन अप, लॉगिन, अकाउंट डिलीट
+            और पेमेंट वेरिफिकेशन के लिए इंटरनेट चाहिए।
+          </p>
+        </section>
+        <section>
+          <h2>प्रीमियम और पेमेंट</h2>
+          <p>
+            पेमेंट Google Play करता है; उपलब्ध होने पर UPI भी उसी चेकआउट में
+            मिलता है। हमें UPI PIN या कार्ड डिटेल नहीं मिलती। हमारा बैकएंड
+            Google Play से खरीद वेरिफाई करता है और अकाउंट से जुड़ा प्रोडक्ट,
+            प्लान, स्टेटस, एक्सपायरी, वेरिफिकेशन का समय और एन्क्रिप्ट किया हुआ
+            परचेज टोकन रखता है। Google Cloud KMS टोकन और साइन किए गए एक्सेस
+            स्टेटमेंट की सुरक्षा करता है। खरीद दूसरे अकाउंट को ट्रांसफर नहीं की
+            जा सकती। साइन किया गया प्रीमियम एक्सेस उसी बूट में अधिकतम 72 घंटे,
+            सब्सक्रिप्शन की एक्सपायरी तक चल सकता है। फोन रीस्टार्ट करने या घड़ी
+            बदलने पर फिर वेरिफिकेशन चाहिए।
+          </p>
+        </section>
+        <section>
+          <h2>ऐड और आपकी सहमति</h2>
+          <p>
+            फ्री यूज़र को ऐप कॉन्फिगरेशन, इंटरनेट और कंसेंट के अनुसार AdMob ऐड
+            दिख सकते हैं। Google कंसेंट के अनुसार डिवाइस/ऐड आईडी, IP से अनुमानित
+            लोकेशन, ऐड इंटरैक्शन और तकनीकी डेटा प्रोसेस कर सकता है। उपलब्ध होने
+            पर ऐप में प्राइवेसी विकल्प बदलें। वेरिफाइड प्रीमियम में ऐड दिखाई
+            नहीं देते और ऐड रिक्वेस्ट नहीं जाती। सब्सक्रिप्शन की जाँच के दौरान
+            भी ऐड रोके जाते हैं।
+            <a href="https://policies.google.com/privacy?hl=hi"
+              >Google प्राइवेसी पॉलिसी</a
+            >।
+          </p>
+        </section>
+        <section>
+          <h2>नोटिफिकेशन और वेबसाइट</h2>
+          <p>
+            इस इम्प्लीमेंटेशन में Analytics, ऑटोमैटिक Crashlytics रिपोर्ट और
+            Firebase Performance कलेक्शन बंद है। App Check/Play Integrity बैकएंड
+            की सुरक्षा के लिए डिवाइस अटेस्टेशन प्रोसेस कर सकते हैं। Firebase
+            Cloud Messaging नोटिफिकेशन टोकन प्रोसेस कर सकता है; हम उसे लॉग या
+            अपनी डेटाबेस में अपलोड नहीं करते। नोटिफिकेशन की अनुमति वैकल्पिक है।
+            इस वेबसाइट में ऐड या एनालिटिक्स कुकी नहीं हैं। GitHub Pages सामान्य
+            होस्टिंग लॉग रख सकता है। डिलीट फॉर्म सबमिट करने पर ही Firebase लोड
+            होता है; लॉगिन सेशन केवल मेमोरी में रहता है।
+          </p>
+        </section>
+        <section>
+          <h2>फोटो और शेयर कार्ड</h2>
+          <p>
+            Android के डॉक्युमेंट पिकर से फोटो/लोगो चुनें; क्रॉप की गई कॉपी ऐप
+            में रहती है। कैमरा या पूरी गैलरी की अनुमति नहीं चाहिए। PNG फोन पर
+            बनता है। सेव या शेयर करने पर चुना हुआ कार्ड और उसमें दिखने वाली
+            व्यक्तिगत जानकारी आपके चुने हुए ऐप को मिलती है। बाहर सेव/शेयर की गई
+            कॉपी अकाउंट डिलीट करने से नहीं हटती।
+          </p>
+        </section>
+        <section>
+          <h2>डेटा कितने समय रहता है</h2>
+          <p>
+            ऐप में अकाउंट → डिलीट या वेबसाइट के
+            <a href="account-deletion.html">अकाउंट डिलीट</a> पेज का उपयोग करें।
+            Firebase पहचान और सर्वर का प्रीमियम एक्सेस हटता है। ऐप से डिलीट करने
+            पर उस अकाउंट का लोकल प्रोफाइल, इमेज और कैश भी हटता है। वेबसाइट किसी
+            ऑफलाइन फोन को सीधे साफ नहीं कर सकती; फोन को इंटरनेट से जोड़ें या ऐप
+            का स्टोरेज साफ करें। गलत तरीके से खरीद दोबारा इस्तेमाल होने से रोकने
+            और पेमेंट विवाद के लिए न्यूनतम छद्म पहचान वाले हैश/रिवोकेशन रिकॉर्ड
+            अधिकतम 400 दिन रह सकते हैं। एन्क्रिप्ट किया टोकन और ईमेल/यूज़र आईडी
+            मैपिंग हटाई जाती है। TTL से रिकॉर्ड हटने में समय लग सकता है। Google
+            Play अपने नियमों के अनुसार पेमेंट रिकॉर्ड रखता है। अकाउंट डिलीट करने
+            से Google Play सब्सक्रिप्शन <strong>कैंसिल नहीं होता</strong>।
+          </p>
+        </section>
+        <section>
+          <h2>विकल्प और सहायता</h2>
+          <p>
+            गेस्ट की तरह ऐप चलाएँ, अनुमति बदलें, लोकल डेटा साफ करें, ऐड
+            प्राइवेसी बदलें, सब्सक्रिप्शन कैंसिल करें या अकाउंट डिलीट करें। हम
+            व्यक्तिगत डेटा नहीं बेचते। कोई भी ऑनलाइन सेवा पूरी सुरक्षा की गारंटी
+            नहीं दे सकती। यह सामान्य जानकारी देने वाला ऐप है, बच्चों के लिए
+            लक्षित सेवा नहीं है। सहायता के लिए
+            <a
+              href="https://github.com/parimalnarayan/Daily-Hindu-Panchang-App/issues"
+              >मेंटेनर से संपर्क करें</a
+            >। पब्लिक इश्यू में पासवर्ड, परचेज टोकन या पेमेंट डिटेल न डालें।
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <span>© 2026 Daily Hindu Panchang</span
+      ><a href="privacy-policy.html" data-policy-text="privacy">Privacy</a
+      ><a href="subscription-terms.html" data-policy-text="subscription"
+        >Subscription terms</a
+      ><a href="account-deletion.html" data-policy-text="deletion"
+        >Delete account</a
+      ><a
+        href="https://github.com/parimalnarayan/Daily-Hindu-Panchang-App/issues"
+        data-policy-text="contact"
+        >Contact maintainer</a
+      >
+    </footer>
+  </body>
+</html>
