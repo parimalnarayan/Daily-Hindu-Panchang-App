@@ -28,6 +28,7 @@ class PolicySiteTest(unittest.TestCase):
      self.assertEqual(self.page.locator('article:visible').count(),1)
      self.assertLessEqual(self.page.evaluate('document.documentElement.scrollWidth'),width)
      self.assertTrue(self.page.locator('h1:visible').inner_text())
+     self.assertEqual(self.page.locator('.updated:visible').inner_text(),'8 नवंबर 2026' if lang=='hi' else '8 November 2026')
      if width==390:
       self.page.screenshot(path=str(ROOT/'docs/evidence'/f'{lang}-{path[:-5]}.png'),full_page=True)
     for href in self.page.locator('a[href]').evaluate_all('(xs)=>xs.map(x=>x.getAttribute("href"))'):
