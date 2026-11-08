@@ -1,0 +1,9 @@
+{
+  "firebase": {
+    "apiKey": "REPLACE_WITH_PUBLIC_FIREBASE_WEB_API_KEY",
+    "authDomain": "REPLACE.firebaseapp.com",
+    "projectId": "REPLACE_WITH_EXISTING_ANDROID_FIREBASE_PROJECT",
+    "appId": "REPLACE_WITH_PUBLIC_WEB_APP_ID"
+  },
+  "appCheckSiteKey": "REPLACE_WITH_PUBLIC_RECAPTCHA_ENTERPRISE_SITE_KEY"
+}
