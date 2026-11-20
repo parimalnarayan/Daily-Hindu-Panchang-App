@@ -14,7 +14,7 @@ The project is designed around a fast, privacy-first daily Panchang experience w
 - `subscription-terms.html`: one annual auto-renewing Premium plan, Play-authoritative pricing, ad-free benefit, renewal/cancellation/refund and offline terms.
 - `account-deletion.html`: instructions and a Firebase email/password deletion portal; no app installation required. It calls the trusted `deleteOwnAccount` backend with the authenticated account, never a user-supplied UID. Google Play cancellation is separate and clearly linked.
 
-The public support route currently uses this repository's maintainer/issues page. The owner must supply/confirm a monitored public support email before Play listing finalization; no address is invented. Do not post credentials, account email, purchase tokens or payment details in public issues.
+The public support email is devslazyvisionlife@gmail.com; users can also use this repository's maintainer/issues page. Do not post credentials, account email, purchase tokens or payment details in public issues.
 
 ### Deployment configuration
 
@@ -24,7 +24,7 @@ The existing Firebase project owner must register the website as a web app, auth
 
 Copy `firebase-config.example.json` to **deployment-only** `firebase-config.json` and supply that project's public Firebase web configuration plus public App Check site key. The real file is git-ignored. These public identifiers are not service-account credentials; never put private keys, signing material, tokens or Admin credentials here. The form reports unavailable configuration when that file is absent. This prevents a false deletion-success claim before backend/web configuration is complete.
 
-Static policy reading works without Firebase configuration. Backend deployment, approved publication of these updated pages, App Check registration and real account-deletion verification remain external gates. The existing GitHub Pages workflow is unchanged; it runs on `main` pushes/manual dispatch. **This task does not push main, dispatch Actions or publish.** Feature changes are submitted for V6 review only.
+Static policy reading works without Firebase configuration. Backend deployment, App Check registration and real account-deletion verification require separate verification. The existing GitHub Pages workflow runs on `main` pushes or manual dispatch.
 
 ### Local verification
 
