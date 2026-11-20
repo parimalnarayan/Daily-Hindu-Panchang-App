@@ -23,6 +23,9 @@ languageButtons.forEach((button) =>
 const navigationText = {
   en: {
     home: "Home",
+    about: "About",
+    contactPage: "Contact",
+    terms: "Terms",
     privacy: "Privacy",
     subscription: "Subscription",
     deletion: "Delete account",
@@ -31,6 +34,9 @@ const navigationText = {
   },
   hi: {
     home: "होम",
+    about: "हमारे बारे में",
+    contactPage: "संपर्क",
+    terms: "नियम",
     privacy: "प्राइवेसी",
     subscription: "सब्सक्रिप्शन",
     deletion: "अकाउंट डिलीट करें",
